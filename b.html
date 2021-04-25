@@ -1,0 +1,93 @@
+<script type="text/javascript">
+    //
+    // Description: Randomly change background color every 5 seconds
+    //
+    // NewcWare 1997
+    // Author: Scott Newcomer 3/1997
+    // Email: nuke@bright.net
+    //
+    function setbackground()
+    {
+    window.setTimeout( "setbackground()", 5000); // 5000 milliseconds delay
+    var index = Math.round(Math.random() * 9);
+    var ColorValue = "FFFFFF"; // default color - white (index = 0)
+    if(index == 1)
+    ColorValue = "FFCCCC"; //peach
+    if(index == 2)
+    ColorValue = "CCAFFF"; //violet
+    if(index == 3)
+    ColorValue = "A6BEFF"; //lt blue
+    if(index == 4)
+    ColorValue = "99FFFF"; //cyan
+    if(index == 5)
+     ColorValue = "D5CCBB"; //tan
+    if(index == 6)
+    ColorValue = "99FF99"; //lt green
+    if(index == 7)
+    ColorValue = "FFFF99"; //lt yellow
+    if(index == 8)
+    ColorValue = "FFCC99"; //lt orange
+    if(index == 9)
+    ColorValue = "CCCCCC"; //lt grey
+    document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
+    }
+    </script>
+    <body onload="setbackground();">
+        <div align="center"><h1 style="font-family:verdana;">
+
+            Course Policy
+           </h1></div>
+
+
+<p class="western" style="margin-bottom: 0.35cm; line-height: 200%" lang="en-US" align="justify">
+    <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><u><b>Attendance</b></u></font></font><span style="text-decoration: none"><font face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><b>:
+    </b></font></font></span><font face="Arial, sans-serif"><font style="font-size: 12pt" size="3">Attendance
+    is compulsory.</font></font></p>
+    <p class="western" style="margin-bottom: 0.35cm; line-height: 200%" lang="en-US" align="justify">
+    <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><u><b>Evaluation</b></u><span style="text-decoration: none"><b>:
+    </b></span>There are four components. </font></font>
+    </p>
+    <ol>
+        <li>
+    <p class="western" style="margin-bottom: 0.35cm; line-height: 200%" lang="en-US" align="justify">
+        <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3">Minor
+        tests 40%, </font></font>
+        </p>
+        </li><li>
+    <p class="western" style="margin-bottom: 0.35cm; line-height: 200%" lang="en-US" align="justify">
+        <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3">Major
+        test: 30%, </font></font>
+        </p>
+        </li><li>
+    <p class="western" style="margin-bottom: 0.35cm; line-height: 200%" lang="en-US" align="justify">
+        <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3">Tutorial
+        Assignments: 10%,</font></font></p>
+        </li><li>
+    <p class="western" style="margin-bottom: 0.35cm; line-height: 200%" lang="en-US" align="justify">
+        <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3">Quizzes
+        (three of 10 marks each): 20%. </font></font>
+        </p>
+    </li></ol>
+    <p class="western" style="margin-bottom: 0.36cm; line-height: 200%" lang="en-US" align="justify">
+    <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><u><b>Tutorial
+    Assignents</b></u>: Ten tutorial problems (to be assigned) have to be
+    submitted every week (one or two per week) during the tutorial
+    sessions. If you are absent for a tutorial session, you cannot submit
+    that day’s assignment by any means.</font></font></p>
+    <p class="western" style="margin-bottom: 0.35cm; line-height: 200%" lang="en-US" align="justify">
+    <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><u><b>Reminor</b></u><b>:</b>
+    There are two minor tests (20 marks each). There will be a re-minor
+    test before the major test. This is for the students who have missed
+    any minor test(s) because of medical reasons. To appear in the
+    re-minor test one has to apply showing valid medical certificate(s).
+    If anyone misses both the regular minor tests there is no provision
+    of two re-minors! Besides, there is no "re-re-minor test". </font></font>
+    </p>
+    <p class="western" style="margin-bottom: 0.35cm; line-height: 200%" lang="en-US" align="justify">
+    <font face="Arial, sans-serif"><font style="font-size: 12pt" size="3"><u><b>Grading</b></u><span style="text-decoration: none"><b>:
+    </b></span>Minimum passing score (i.e., grade D): 30%, Grade E
+    (eligible for re-major): (20-29%), Grade F (fail): below 20%. The
+    other grades are decided depending upon the distribution of final
+    marks of entire students. A minimum of 80% is required for scoring an
+    A grade (although not guaranteed).</font></font></p>
+    
